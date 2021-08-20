@@ -1,0 +1,70 @@
+XML
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Discord-GameServerMonitor</Name>
+  <Repository>joey291/discordgsm:latest</Repository>
+  <Registry>https://hub.docker.com/r/joey291/discordgsm</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/112736-support-discordgsm/</Support>
+  <Project>https://discordgsm.com/</Project>
+  <Overview> Monitor your game servers on Discord and tracks the live data of your game servers.&#xD;
+&#xD;
+--After first start of the Container Config files are Created. You Must configure them as you need it otherwise it will not function.--&#xD;
+&#xD;
+You need a Discord BOT API Key for your settings.json Config. (see Support Forum if you dont know how)&#xD;
+Note: DO NOT SHARE YOUR API KEY! Sharing your key may result in punishments from Discord (including a platform-wide ban) if the token is used to abuse the API.&#xD;
+&#xD;
+&#xD;
+Configure your Monitored Servers in the servers.json:&#xD;
+https://github.com/DiscordGSM/DiscordGSM/wiki/Edit-servers.json</Overview>
+  <Category>Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://discordgsm.com/icon/discordgsm-public.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1629467895</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Description> Monitor your game servers on Discord and tracks the live data of your game servers.&#xD;
+&#xD;
+--After first start of the Container Config files are Created. You Must configure them as you need it otherwise it will not function.--&#xD;
+&#xD;
+You need a Discord BOT API Key for your settings.json Config. (see Support Forum if you dont know how)&#xD;
+Note: DO NOT SHARE YOUR API KEY! Sharing your key may result in punishments from Discord (including a platform-wide ban) if the token is used to abuse the API.&#xD;
+&#xD;
+&#xD;
+Configure your Monitored Servers in the servers.json:&#xD;
+https://github.com/DiscordGSM/DiscordGSM/wiki/Edit-servers.json</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish/>
+  </Networking>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/cache/appdata/dgsm</HostDir>
+      <ContainerDir>/dgsm-docker/configs</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Environment>
+    <Variable>
+      <Value>100</Value>
+      <Name>PGID</Name>
+      <Mode/>
+    </Variable>
+    <Variable>
+      <Value>99</Value>
+      <Name>PUID</Name>
+      <Mode/>
+    </Variable>
+  </Environment>
+  <Labels/>
+  <Config Name="Configs" Target="/dgsm-docker/configs" Default="" Mode="rw" Description="Container Path: /dgsm-docker/configs" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/dgsm</Config>
+  <Config Name="PGID" Target="PGID" Default="" Mode="" Description="PGID" Type="Variable" Display="advanced-hide" Required="false" Mask="false">100</Config>
+  <Config Name="PUID" Target="PUID" Default="" Mode="" Description="PUID" Type="Variable" Display="advanced-hide" Required="false" Mask="false">99</Config>
+</Container>
