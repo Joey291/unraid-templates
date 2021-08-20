@@ -3,12 +3,12 @@ XML
 <Container version="2">
   <Name>Discord-GameServerMonitor</Name>
   <Repository>joey291/discordgsm:latest</Repository>
-  <Registry>https://hub.docker.com/repository/docker/joey291/discordgsm</Registry>
+  <Registry>https://hub.docker.com/r/joey291/discordgsm</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support/>
+  <Support>https://forums.unraid.net/topic/112736-support-discordgsm/</Support>
   <Project>https://discordgsm.com/</Project>
   <Overview> Monitor your game servers on Discord and tracks the live data of your game servers.&#xD;
 &#xD;
