@@ -18,7 +18,7 @@ Note: DO NOT SHARE YOUR API KEY! Sharing your key may result in punishments from
 &#xD;
 &#xD;
 Configure your Monitored Servers in the servers.json:&#xD;
-https://github.com/DiscordGSM/DiscordGSM/wiki/Edit-servers.json</Overview>
+https://github.com/DiscordGSM/DiscordGSM/wiki/servers.json</Overview>
   <Category>Other:</Category>
   <WebUI/>
   <TemplateURL/>
@@ -38,7 +38,7 @@ Note: DO NOT SHARE YOUR API KEY! Sharing your key may result in punishments from
 &#xD;
 &#xD;
 Configure your Monitored Servers in the servers.json:&#xD;
-https://github.com/DiscordGSM/DiscordGSM/wiki/Edit-servers.json</Description>
+https://github.com/DiscordGSM/DiscordGSM/wiki/servers.json</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
