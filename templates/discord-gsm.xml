@@ -39,6 +39,7 @@ Note: DO NOT SHARE YOUR API KEY! Sharing your key may result in punishments from
 &#xD;
 Configure your Monitored Servers in the servers.json:&#xD;
 https://github.com/DiscordGSM/DiscordGSM/wiki/servers.json</Description>
+  <Screenshot>https://github.com/Joey291/unraid-templates/raw/main/templates/discord-gsm.png</Screenshot>
   <Networking>
     <Mode>bridge</Mode>
     <Publish/>
