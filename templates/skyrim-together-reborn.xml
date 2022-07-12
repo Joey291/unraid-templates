@@ -9,11 +9,11 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://skyrim-together.com/</Project>
-  <Overview>Skyrim Together Reborn Coop Server. The Docker image is not privided nor managed by myself. I'm just providing it to the Unraid Store</Overview>
+  <Overview>Skyrim Together Reborn Coop Server. This Docker image is not managed by me. I'm just providing it to the Unraid Store from the offical Docker image</Overview>
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/Joey291/unraid-templates/blob/610396d57ad91a7f58c5dd144dcacdbb875e80b4/skyrim.png</Icon>
+  <Icon>https://github.com/Joey291/unraid-templates/raw/610396d57ad91a7f58c5dd144dcacdbb875e80b4/skyrim.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
