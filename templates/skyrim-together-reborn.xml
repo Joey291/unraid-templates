@@ -21,6 +21,8 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Config Path" Target="/home/server/config/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimtogether</Config>
+  <Config Name="Config Path" Target="/home/server/config/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimserver/config</Config>
+  <Config Name="Data Path" Target="/home/server/Data/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimserver/Data</Config>
+  <Config Name="Log Path" Target="/home/server/logs/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimserver/logs</Config>
   <Config Name="UDP" Target="10578" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">10578</Config>
 </Container>
