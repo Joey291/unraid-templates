@@ -22,7 +22,7 @@ https://github.com/DiscordGSM/DiscordGSM/wiki/servers.json</Overview>
   <Category>Other:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://discordgsm.com/icon/discordgsm-public.png</Icon>
+  <Icon>https://raw.githubusercontent.com/DiscordGSM/DiscordGSM/master/images/discordgsm.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
