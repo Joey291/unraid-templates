@@ -13,7 +13,7 @@
   <Category>GameServers:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://github.com/Joey291/unraid-templates/raw/610396d57ad91a7f58c5dd144dcacdbb875e80b4/skyrim.png</Icon>
+  <Icon>https://raw.githubusercontent.com/Joey291/unraid-templates/main/templates/skyrim-together-reborn.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>

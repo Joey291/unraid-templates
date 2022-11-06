@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>DiscordGSM</Name>
+  <Repository>discordgsm/discord-game-server-monitor:latest</Repository>
+  <Registry>https://hub.docker.com/r/discordgsm/discord-game-server-monitor</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://forums.unraid.net/topic/112736-support-discordgsm/</Support>
+  <Project>https://discordgsm.com/</Project>
+  <Overview>A discord bot that monitors your game server and tracks the live data of your game servers.</Overview>
+  <Category>Other:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/DiscordGSM/DiscordGSM/master/images/discordgsm.png</Icon>
+  <ExtraParams/>
+  <PostArgs>python3 -u main.py</PostArgs>
+  <CPUset/>
+  <DateInstalled>1667745694</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Screenshot>https://github.com/Joey291/unraid-templates/raw/main/templates/discord-gsm.png</Screenshot>
+  <Requires/>
+  <Config Name="Host Path 1" Target="/usr/src/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/discordgsm/</Config>
+  <Config Name="Discord Bot Token" Target="APP_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Discord Guild ID" Target="WHITELIST_GUILDS" Default="" Mode="" Description="if more than one, separate with" Type="Variable" Display="always" Required="true" Mask="false"/>
+</Container>
