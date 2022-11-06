@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>Discord-GameServerMonitor</Name>
+  <Name>Discord-GameServerMonitor-Classic</Name>
   <Repository>joey291/discordgsm:latest</Repository>
   <Registry>https://hub.docker.com/r/joey291/discordgsm</Registry>
   <Network>bridge</Network>
