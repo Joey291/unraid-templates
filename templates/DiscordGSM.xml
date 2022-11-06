@@ -23,6 +23,6 @@
   <Screenshot>https://github.com/Joey291/unraid-templates/raw/main/templates/discord-gsm.png</Screenshot>
   <Requires/>
   <Config Name="Host Path 1" Target="/usr/src/app/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/user/appdata/discordgsm/</Config>
-  <Config Name="Discord Bot Token" Target="APP_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"></Config>
-  <Config Name="Discord Guild ID" Target="WHITELIST_GUILDS" Default="" Mode="" Description="if more than one, separate with" Type="Variable" Display="always" Required="true" Mask="false"></Config>
+  <Config Name="Discord Bot Token" Target="APP_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false"/>
+  <Config Name="Discord Guild ID" Target="WHITELIST_GUILDS" Default="" Mode="" Description="if more than one, separate with" Type="Variable" Display="always" Required="true" Mask="false"/>
 </Container>
