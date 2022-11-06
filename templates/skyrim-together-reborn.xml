@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>SkyrimTogetherRebornServer</Name>
+  <Repository>tiltedphoques/st-reborn-server:latest</Repository>
+  <Registry>https://hub.docker.com/r/tiltedphoques/st-reborn-server</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://skyrim-together.com/</Project>
+  <Overview>Skyrim Together Reborn Coop Server. This Docker image is not managed by me. I'm just providing it to the Unraid Store from the offical Docker image</Overview>
+  <Category>GameServers:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/Joey291/unraid-templates/raw/610396d57ad91a7f58c5dd144dcacdbb875e80b4/skyrim.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1657663786</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Config Path" Target="/home/server/config/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimserver/config</Config>
+  <Config Name="Data Path" Target="/home/server/Data/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimserver/Data</Config>
+  <Config Name="Log Path" Target="/home/server/logs/" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="false" Mask="false">/mnt/cache/appdata/skyrimserver/logs</Config>
+  <Config Name="UDP" Target="10578" Default="" Mode="udp" Description="" Type="Port" Display="always" Required="false" Mask="false">10578</Config>
+</Container>
