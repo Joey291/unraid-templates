@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>CloudflaredTunnel</Name>
+  <Repository>cloudflare/cloudflared:latest</Repository>
+  <Registry>https://hub.docker.com/r/cloudflare/cloudflared</Registry>
+  <Network>host</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/cloudflare/cloudflared</Project>
+  <Overview>This is an Easy and SAFE Container to use Cloudflare Zero Trust Tunnel.&#xD;
+&#xD;
+It uses only the offical Docker Container from Cloudflared itself. No Third Party Script Involed.&#xD;
+&#xD;
+Config guide:&#xD;
+-Enable Advaned View in the top right Corner&#xD;
+-look for "Post Arguments" and past in your token after "--token *YourTokenHere*"&#xD;
+ so it looks something like this at the end -&amp;gt;     tunnel --no-autoupdate run --token 1234567890&#xD;
+</Overview>
+  <Category>Network:VPN</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/aeleos/cloudflared/main/cloudflare-icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs>tunnel --no-autoupdate run --token </PostArgs>
+  <CPUset/>
+  <DateInstalled>1682716701</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+</Container>
