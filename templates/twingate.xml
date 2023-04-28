@@ -3,7 +3,7 @@
   <Name>Twingate Connector</Name>
   <Repository>twingate/connector:latest</Repository>
   <Registry/>
-  <Network>bridge</Network>
+  <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
