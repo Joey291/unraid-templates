@@ -21,7 +21,7 @@ Config guide:&#xD;
   <Category>Network:VPN</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon>https://raw.githubusercontent.com/aeleos/cloudflared/main/cloudflare-icon.png</Icon>
+  <Icon>https://github.com/Joey291/unraid-templates/raw/main/templates/cloudflare-icon.png</Icon>
   <ExtraParams/>
   <PostArgs>tunnel --no-autoupdate run --token </PostArgs>
   <CPUset/>
