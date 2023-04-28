@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Twingate</Name>
+  <Repository>twingate/connector:latest</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://www.twingate.com/docs/quick-start</Support>
+  <Project>https://www.twingate.com/</Project>
+  <Overview>Twingate makes Zero Trust Network Access easy to deploy, even easier to use, and always secure.</Overview>
+  <Category>Network:VPN</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://github.com/Joey291/unraid-templates/raw/main/templates/twingate-logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1682710314</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="TENANT_URL" Target="TENANT_URL" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="false">https://yourcompanyname.twingate.com</Config>
+  <Config Name="ACCESS_TOKEN" Target="ACCESS_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
+  <Config Name="REFRESH_TOKEN" Target="REFRESH_TOKEN" Default="" Mode="" Description="" Type="Variable" Display="always" Required="true" Mask="true"/>
+</Container>
