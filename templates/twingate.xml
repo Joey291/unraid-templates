@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Twingate Connector</Name>
   <Repository>twingate/connector:latest</Repository>
-  <Registry/>
+  <Registry>https://registry.hub.docker.com/r/twingate/connector</Registry>
   <Network>host</Network>
   <MyIP/>
   <Shell>sh</Shell>
