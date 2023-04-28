@@ -14,7 +14,7 @@
 It uses only the offical Docker Container from Cloudflared itself. No 3rd party scripts involed.&#xD;
 &#xD;
 Config guide:&#xD;
--Enable Advaned View in the top right Corner&#xD;
+-Enable Advanced View in the top right Corner&#xD;
 -look for "Post Arguments" and past in your token after "--token *YourTokenHere*"&#xD;
  so it looks something like this at the end -&amp;gt;     tunnel --no-autoupdate run --token 1234567890&#xD;
 </Overview>
