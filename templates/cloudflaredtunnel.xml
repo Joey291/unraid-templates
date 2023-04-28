@@ -11,7 +11,7 @@
   <Project>https://github.com/cloudflare/cloudflared</Project>
   <Overview>This is an Easy and SAFE Container to use Cloudflare Zero Trust Tunnel.&#xD;
 &#xD;
-It uses only the offical Docker Container from Cloudflared itself. No Third Party Script Involed.&#xD;
+It uses only the offical Docker Container from Cloudflared itself. No 3rd party scripts involed.&#xD;
 &#xD;
 Config guide:&#xD;
 -Enable Advaned View in the top right Corner&#xD;
