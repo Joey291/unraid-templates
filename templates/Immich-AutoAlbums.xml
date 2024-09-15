@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Immich-AutoAlbums</Name>
+  <Repository>salvoxia/immich-folder-album-creator</Repository>
+  <Registry/>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project>https://github.com/Salvoxia/immich-folder-album-creator</Project>
+  <Overview>Immich Folder Album Creator&#xD;
+This is a python script designed to automatically create albums in Immich from a folder structure mounted into the Immich container. This is useful for automatically creating and populating albums for external libraries. Using the provided docker image, the script can simply be added to the Immich compose stack and run along the rest of Immich's containers.</Overview>
+  <Category>Tools:</Category>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon/>
+  <ExtraParams/>
+  <PostArgs>/script/immich_auto_album.sh</PostArgs>
+  <CPUset/>
+  <DateInstalled>1726430841</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="ROOT_PATH" Target="ROOT_PATH" Default="" Mode="" Description="A single or a comma separated list of import paths for external libraries in Immich.&#13;&#10;&#13;&#10;(path inside Immich, NOT inside Unraid !)" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="API_URL" Target="API_URL" Default="" Mode="" Description="The root API URL of immich, e.g. https://immich.mydomain.com/api/" Type="Variable" Display="always" Required="false" Mask="false">http://x.x.x.x:8080/api/</Config>
+  <Config Name="API_KEY" Target="API_KEY" Default="" Mode="" Description="The Immich API Key to use" Type="Variable" Display="always" Required="false" Mask="false"/>
+  <Config Name="ALBUM_LEVELS" Target="ALBUM_LEVELS" Default="" Mode="" Description="https://github.com/Salvoxia/immich-folder-album-creator#how-it-works" Type="Variable" Display="always" Required="false" Mask="false">2</Config>
+  <Config Name="Host Key 5" Target="UNATTENDED" Default="0" Mode="" Description="Do not ask for user confirmation after identifying albums." Type="Variable" Display="always" Required="false" Mask="false">1</Config>
+  <Config Name="Host Key 6" Target="DELETE_CONFIRM" Default="0" Mode="" Description="Confirm deletion of albums when running in mode CLEANUP or DELETE_ALL. If this flag is not set, these modes will perform a dry run only. Has no effect in mode CREATE" Type="Variable" Display="always" Required="false" Mask="false">0</Config>
+  <Config Name="Host Key 7" Target="album-separator" Default="" Mode="" Description="Separator string to use for compound album names created from nested folders. Only effective if -a is set to a value &amp;gt; 1(default: " Type="Variable" Display="always" Required="false" Mask="false">-</Config>
+</Container>
