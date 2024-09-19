@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>Immich-AutoAlbums</Name>
   <Repository>salvoxia/immich-folder-album-creator</Repository>
-  <Registry/>
+  <Registry>https://registry.hub.docker.com/r/salvoxia/immich-folder-album-creator</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
