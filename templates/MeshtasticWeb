@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>MeshtasticWeb</Name>
+  <Repository>ghcr.io/meshtastic/web</Repository>
+  <Registry>https://hub.docker.com/r/joey291/meshtastic-web</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/meshtastic/web</Support>
+  <Project>https://meshtastic.org/de/</Project>
+  <Overview>This is the Offical Meshtastic Web Container</Overview>
+  <Category>Tools:</Category>
+  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/Joey291/unraid-templates/main/templates/meshtasticweb.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1760690660</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="ALLOWED_HOST" Target="ALLOWED_HOST" Default="example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">meshtastic.local</Config>
+  <TailscaleStateDir/>
+</Container>
