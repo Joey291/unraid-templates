@@ -14,7 +14,7 @@ This is a python script designed to automatically create albums in Immich from a
   <Category>Tools:</Category>
   <WebUI/>
   <TemplateURL/>
-  <Icon/>
+  <Icon>https://raw.githubusercontent.com/immich-app/immich/refs/heads/main/design/immich-logo.png</Icon>
   <ExtraParams/>
   <PostArgs>/script/immich_auto_album.sh</PostArgs>
   <CPUset/>
