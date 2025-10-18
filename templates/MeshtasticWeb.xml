@@ -2,7 +2,7 @@
 <Container version="2">
   <Name>MeshtasticWeb</Name>
   <Repository>ghcr.io/meshtastic/web</Repository>
-  <Registry>https://hub.docker.com/r/joey291/meshtastic-web</Registry>
+  <Registry/>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
