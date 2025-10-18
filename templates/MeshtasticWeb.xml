@@ -21,7 +21,7 @@
   <DonateText/>
   <DonateLink/>
   <Requires/>
-  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="Host Port 1" Target="8080" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="false" Mask="false">8080</Config>
   <Config Name="ALLOWED_HOST" Target="ALLOWED_HOST" Default="example.com" Mode="" Description="" Type="Variable" Display="always" Required="false" Mask="false">meshtastic.local</Config>
   <TailscaleStateDir/>
 </Container>
