@@ -11,7 +11,7 @@
   <Project>https://meshtastic.org/de/</Project>
   <Overview>This is the Offical Meshtastic Web Container</Overview>
   <Category>Tools:</Category>
-  <WebUI>http://[IP]:[PORT:3000]/</WebUI>
+  <WebUI>http://[IP]:[PORT:8080]/</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/Joey291/unraid-templates/main/templates/meshtasticweb.png</Icon>
   <ExtraParams/>
